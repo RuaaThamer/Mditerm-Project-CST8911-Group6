@@ -4,7 +4,7 @@ This document explains how team members can connect to the Azure SQL Database an
 
 ⚠️ **Security Notice**  
 For security reasons, the database password is **not stored in this repository**.  
-The password will be shared privately with team members.
+The password shared privately with team members.
 
 ---
 
