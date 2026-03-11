@@ -113,15 +113,6 @@ Access is provided through Azure RBAC permissions.
 
 ---
 
-# Project Workflow
-
-Blob Storage  
-→ Azure Data Factory  
-→ Azure SQL Database  
-→ Power BI Dashboard
-
----
-
 # Support
 
 If you has trouble accessing the resources or connecting to the database, contact walt0180@algonquinlive.com in Microsoft Teams.
