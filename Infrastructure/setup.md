@@ -43,9 +43,9 @@ Connection Timeout=30;
 
 ---
 
-# Connecting with SQL Server Management Studio (SSMS)
+# Connecting with SQL Server using (SSMS) or VS Code with the SQL Server (mssql) extension
 
-1. Open **SQL Server Management Studio**
+1. Open **SQL Server Management Studio (SSMS)**
 2. In **Server name**, enter:
 
 sql-midtermproject-server.database.windows.net
