@@ -30,7 +30,7 @@ To ensure maximum efficiency, we delegated roles based on the specific pillars o
 ## Diagram 
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[shopping_trends.csv] --> B[Azure Blob Storage]
     B --> C[ADF Copy Activity]
     C --> D[dbo.raw_customer_purchases]
