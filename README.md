@@ -27,4 +27,24 @@ To ensure maximum efficiency, we delegated roles based on the specific pillars o
 * **Risk Mitigation:** We chose a modular design; if the automated ADF pipeline required troubleshooting, the SQL Architect could maintain progress using staged data, ensuring the project remained on schedule.
 * **Visual Impact:** The end goal was a polished Power BI dashboard that provides immediate business insights from raw cloud-staged data.
 
+## Architecture 
+
+```mermaid
+flowchart TD
+    A[shopping_trends.csv] --> B[Azure Blob Storage]
+    B --> C[ADF Copy Activity]
+    C --> D[dbo.raw_customer_purchases]
+
+    D --> E[dbo.customers]
+    D --> F[dbo.products]
+    D --> G[dbo.purchases]
+
+    E --> H[SQL Views]
+    F --> H
+    G --> H
+
+    H --> I[Power BI Dashboard]
+```
+
+
 ---
